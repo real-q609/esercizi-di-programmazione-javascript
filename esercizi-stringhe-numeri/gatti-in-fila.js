@@ -17,3 +17,9 @@
 
   http://www.imparareaprogrammare.it
 */
+var cats = 44;
+var  gattiperfila = 5;
+var file = Math.ceil(cats/gattiperfila);
+console.log(file);
+var gattimancanti = gattiperfila-cats%gattiperfila;
+console.log(gattimancanti);
